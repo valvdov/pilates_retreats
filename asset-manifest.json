@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bda988b0.css",
+    "main.js": "/static/js/main.f3d14e7c.js",
+    "static/media/natalia.jpg": "/static/media/natalia.c86aafb7e0e3062814a3.jpg",
+    "static/media/dish5.JPG": "/static/media/dish5.2d3a5e652a7d4a84abba.JPG",
+    "static/media/main_picture.jpeg": "/static/media/main_picture.af1a4552070185d3e564.jpeg",
+    "static/media/lana.jpg": "/static/media/lana.91d81a237e4dd6c23be4.jpg",
+    "static/media/dish1.JPG": "/static/media/dish1.3d194caa05685458c928.JPG",
+    "static/media/living_room.jpg": "/static/media/living_room.faf3599eec3c62dd92be.jpg",
+    "static/media/standard_room.jpg": "/static/media/standard_room.11eb656806ac9691f4c8.jpg",
+    "static/media/spa1.JPG": "/static/media/spa1.8aa7f60228df6f930fe9.JPG",
+    "static/media/comfort_room.jpg": "/static/media/comfort_room.0ed7deb1b945abeb0302.jpg",
+    "static/media/bathroom.jpg": "/static/media/bathroom.e879a3a07ffb92d0523a.jpg",
+    "static/media/fireplace.jpg": "/static/media/fireplace.f95c010f8a4fe7066a69.jpg",
+    "static/media/kitchen.jpg": "/static/media/kitchen.540a254c5ec987c14c61.jpg",
+    "static/media/Inter-Black.woff": "/static/media/Inter-Black.fd37f7e052bea1018058.woff",
+    "static/media/dish4.JPG": "/static/media/dish4.44d79e37bb4232411183.JPG",
+    "static/media/dish6.JPG": "/static/media/dish6.48d7a6d69707ab5c1c13.JPG",
+    "static/media/dish2.jpg": "/static/media/dish2.150b441c071f48d2d1e4.jpg",
+    "static/media/Inter-Black.woff2": "/static/media/Inter-Black.141c7af6ed109b318513.woff2",
+    "static/media/outside2.jpg": "/static/media/outside2.e73c25b07d437babcee3.jpg",
+    "static/media/Inter-Medium.woff": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Regular.woff": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/outside1.JPG": "/static/media/outside1.2714239724e13de7909d.JPG",
+    "static/media/Inter-Medium.woff2": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Regular.woff2": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/dish7.jpg": "/static/media/dish7.5124387ce663666db7b1.jpg",
+    "static/media/dish3.JPG": "/static/media/dish3.bfc5ab4edd1279e68ac7.JPG",
+    "static/media/closet.jpg": "/static/media/closet.70730d402498bf3e7900.jpg",
+    "static/media/dish8.jpg": "/static/media/dish8.d77916f75168137b5b10.jpg",
+    "static/media/spa2.jpg": "/static/media/spa2.571b0b2b39e69249922f.jpg",
+    "index.html": "/index.html",
+    "main.bda988b0.css.map": "/static/css/main.bda988b0.css.map",
+    "main.f3d14e7c.js.map": "/static/js/main.f3d14e7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bda988b0.css",
+    "static/js/main.f3d14e7c.js"
+  ]
+}
