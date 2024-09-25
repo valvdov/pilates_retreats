@@ -1,0 +1,37 @@
+.program_page {
+    font-family: 'Inter', sans-serif;
+    padding: 2em;
+}
+
+.page_title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.date_info {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.program_section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.program_section h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.program_section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.program_section ul li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}

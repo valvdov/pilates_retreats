@@ -1,0 +1,47 @@
+.footer {
+    background-color: #2a4f4e;
+    color: white;
+    padding: 2em 3em;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer_contact, .footer_address, .footer_social {
+    margin-bottom: 1em;
+}
+
+.footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.footer p {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+.footer a {
+    color: #81c6e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #b3e6f5;
+}
+
+.footer p svg {
+    margin-right: 0.5em;
+    vertical-align: middle;
+}

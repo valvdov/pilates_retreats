@@ -1,0 +1,84 @@
+.menu_page {
+    background-color: #e6f7f7;
+    padding: 3em;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu_title {
+    font-size: 3em;
+    color: #86c8c4;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.menu_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.menu_text {
+    width: 50%;
+}
+
+.menu_day {
+    margin-bottom: 2em;
+}
+
+.menu_day h2 {
+    font-size: 1.8em;
+    color: #454545;
+    margin-bottom: 0.5em;
+}
+
+.menu_day p {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.menu_day ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu_day ul li {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.menu_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 45%;
+}
+
+.menu_images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu_content {
+        flex-direction: column; /* Stack the text and images vertically */
+    }
+
+    .menu_text {
+        width: 100%;
+    }
+
+    .menu_images {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr; /* One column layout */
+        gap: 1em;
+    }
+
+    .menu_images img {
+        width: 100%; /* Full width for each image */
+    }
+}

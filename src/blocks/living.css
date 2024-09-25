@@ -1,0 +1,100 @@
+.accommodation_page {
+    background-color: #f9fbfc;
+    padding: 3em;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.page_title {
+    font-size: 3em;
+    color: #2a4f4e;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.accommodation_options {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 3em;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.option_card {
+    background-color: #e6f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 1em;
+}
+
+.room_image {
+    width: 100%;
+    height: 210px;
+    object-fit: cover; /* Prevents stretching, maintains aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.option_card h2 {
+    font-size: 1.5em;
+    color: #2a4f4e;
+    margin-bottom: 0.5em;
+}
+
+.option_card p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #2a4f4e;
+    font-weight: bold;
+}
+
+.additional_images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.additional_images img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover; /* Ensures the images maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+
+/* For tablets and medium-sized devices */
+@media screen and (max-width: 1024px) {
+    .additional_images {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .accommodation_options {
+        flex-direction: column; /* Stack room options vertically */
+        align-items: center;
+    }
+
+    .option_card {
+        width: 100%; /* Full width for room cards */
+    }
+
+    .additional_images {
+        grid-template-columns: 1fr; /* 1 column on smaller screens */
+    }
+
+    .additional_images img {
+        height: auto; /* Ensure images scale properly in vertical stacking */
+    }
+}

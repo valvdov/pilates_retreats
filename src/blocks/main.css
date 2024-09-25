@@ -1,0 +1,190 @@
+.main_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/main_picture.jpeg");
+    background-size: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 90%;
+    height: 850px;
+    font-family: Inter, sans-serif;
+    position: relative;
+    padding: 2em;
+    box-sizing: border-box;
+    z-index: 0; /* Base z-index */
+}
+
+.main_page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Dark overlay */
+    z-index: 1; /* Overlay goes above background but below text */
+}
+
+.main_text {
+    color: white;
+    z-index: 2;
+    max-width: 50%; /* Adjust for text width */
+}
+
+.main_text, .additional_text, .main_buttons {
+    position: relative;
+    z-index: 2; /* Ensure the text and button are above the overlay */
+}
+
+.first_text {
+    font-size: 6em; /* Larger text */
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.second_text {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    margin-top: 4.5em;
+}
+
+.text_span {
+    font-size: 1.8em;
+}
+
+.additional_text {
+    position: absolute;
+    bottom: 0.1em; /* Position it at the bottom left */
+    font-size: 2em;
+    color: white;
+    z-index: 2;
+}
+
+.main_buttons {
+    position: absolute;
+    bottom: 2em; /* Align it to the bottom right */
+    right: 2em;
+}
+
+.button_main {
+    font-size: 1.5em;
+    padding: 0.8em 2em;
+    background-color: #81C6E8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 180px;
+    transition: background-color 0.3s ease;
+    z-index: 3;
+}
+
+.button_main:hover {
+    background-color: #6FAED4;
+}
+
+/* Tablet (Portrait) and smaller screens */
+@media screen and (max-width: 1200px) {
+    .main_text {
+        max-width: 70%; /* Wider text block on smaller screens */
+    }
+
+    .first_text {
+        font-size: 4em;
+        max-width: 50%/* Adjust text size */
+    }
+
+    .second_text {
+        margin-top: 5.8em;
+        font-size: 1.5em;
+    }
+
+    .text_span {
+        font-size: 1.8em;
+    }
+
+    .button_main {
+        font-size: 1.2em;
+        padding: 0.6em 1.5em;
+    }
+
+    .additional_text {
+        font-size: 1.5em;
+    }
+}
+
+/* Mobile phones (Landscape and smaller tablets) */
+@media screen and (max-width: 768px) {
+    .main_page {
+        padding: 1em;
+        min-height: 100vh; /* Ensure it takes full height on small screens */
+    }
+
+    .main_text {
+        max-width: 90%;
+    }
+
+    .first_text {
+        font-size: 6em;
+    }
+
+    .second_text {
+        margin-top: 4em;
+        font-size: 2em;
+    }
+
+    .text_span {
+        font-size: 1.2em;
+    }
+
+    .additional_text, .main_buttons {
+        bottom: 9em; /* Less padding for smaller screens */
+    }
+
+    .button_main {
+        font-size: 2em;
+        padding: 0.5em 1.2em;
+    }
+}
+
+/* Very small devices (Mobile phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    .main_page {
+        padding: 0.5em;
+        min-height: 100vh; /* Ensure full height is covered */
+    }
+
+    .main_text {
+        max-width: 95%;
+        top: 10%;
+    }
+
+    .first_text {
+        font-size: 2.5em;
+    }
+
+    .second_text {
+        font-size: 0.9em;
+    }
+
+    .text_span {
+        font-size: 1em;
+    }
+
+    .additional_text {
+        bottom: 0.5em;
+        left: 1em;
+        font-size: 0.8em;
+    }
+
+    .main_buttons {
+        bottom: 0.5em;
+        right: 1em;
+    }
+
+    .button_main {
+        font-size: 0.9em;
+        padding: 0.4em 1em;
+    }
+}
