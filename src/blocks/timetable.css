@@ -35,3 +35,6 @@
     font-size: 1.2em;
     margin-bottom: 0.5em;
 }
+.program_section ul li span{
+    font-style: italic;
+}

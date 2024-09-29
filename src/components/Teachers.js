@@ -1,14 +1,15 @@
 import natalia from '../images/natalia.jpg'
 import lana from '../images/lana.jpg'
+import natali from '../images/natali.jpg'
 
 function CoordinatorsPage() {
     return (
         <div id="coordinators" className='coordinator_page'>
-            <h1 className="page_title">Координаторы ретрита</h1>
+            <h1 className="page_title">Создатели ретрита</h1>
             <div className="coordinator_section">
                 <div className="coordinator_card">
                     <img src={natalia} alt="Наталия" className="coordinator_image" />
-                    <h2>Наталия</h2>
+                    <h2>Наталья</h2>
                     <p>Инструктор Polestar Pilates</p>
                     <p>Проводник гвоздестояния</p>
                 </div>
@@ -20,7 +21,7 @@ function CoordinatorsPage() {
                     <p>Шеф-повар</p>
                 </div>
                 <div className="coordinator_card">
-                    <img src="../images/natalya.jpg" alt="Наталья" className="coordinator_image" />
+                    <img src={natali} alt="Наталья" className="coordinator_image" />
                     <h2>Наталья</h2>
                     <p>Организатор</p>
                     <p>Vocal coach</p>

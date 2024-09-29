@@ -38,9 +38,15 @@
 }
 
 .menu_day ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding-left: 0;
+    color: #86c8c4;
 }
+
+.menu_day ul li::marker {
+    color: #86c8c4; /* Цвет bullet points */
+}
+
 
 .menu_day ul li {
     font-size: 1.2em;

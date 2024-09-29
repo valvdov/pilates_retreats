@@ -67,14 +67,21 @@ function RetreatMenu() {
                             <li>Запеченная брокколи с песто</li>
                             <li>Тапиока десерт с черникой</li>
                         </ul>
+                        <h3>В ассортименте свежевыжатые соки в неограниченном количестве:</h3>
+                        <ul>
+                            <li>Яблоко</li>
+                            <li>Морковь</li>
+                            <li>Сельдирей</li>
+                            <li>Имбирь</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div className="menu_images">
-                    <img src={dish7} alt="Dish 7" />
-                    <img src={dish5} alt="Dish 5" />
-                    <img src={dish2} alt="Dish 2" />
-                    <img src={dish6} alt="Dish 6" />
+                    <img src={dish7} alt="Dish 7"/>
+                    <img src={dish5} alt="Dish 5"/>
+                    <img src={dish2} alt="Dish 2"/>
+                    <img src={dish6} alt="Dish 6"/>
                     <img src={dish8} alt="Dish 8" />
                     <img src={dish4} alt="Dish 4" />
                     <img src={dish1} alt="Dish 1" />

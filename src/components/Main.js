@@ -13,6 +13,9 @@ function Main() {
                     <div>трехдневный тур</div>
                     <div className="text_span">"Познай своё тело"</div>
                 </div>
+                <div className="third_text">
+                    <div>18,19,20 Октября</div>
+                </div>
             </div>
             <div className="additional_text">
                 <p>*в часе езды от Лондона</p>
