@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.26fedeff.css",
-    "main.js": "./static/js/main.8a73aca5.js",
+    "main.js": "./static/js/main.3c80827e.js",
     "static/media/natalia.jpg": "./static/media/natalia.c86aafb7e0e3062814a3.jpg",
     "static/media/natali.jpg": "./static/media/natali.caf70d64a45cd9a72ae8.jpg",
     "static/media/dish5.JPG": "./static/media/dish5.2d3a5e652a7d4a84abba.JPG",
@@ -9,6 +9,7 @@
     "static/media/lana.jpg": "./static/media/lana.91d81a237e4dd6c23be4.jpg",
     "static/media/dish1.JPG": "./static/media/dish1.3d194caa05685458c928.JPG",
     "static/media/living_room.jpg": "./static/media/living_room.faf3599eec3c62dd92be.jpg",
+    "static/media/dish7.jpg": "./static/media/dish7.c800ca6d11a6466e916e.jpg",
     "static/media/standard_room.jpg": "./static/media/standard_room.11eb656806ac9691f4c8.jpg",
     "static/media/spa1.JPG": "./static/media/spa1.8aa7f60228df6f930fe9.JPG",
     "static/media/comfort_room.jpg": "./static/media/comfort_room.0ed7deb1b945abeb0302.jpg",
@@ -26,17 +27,16 @@
     "static/media/outside1.JPG": "./static/media/outside1.2714239724e13de7909d.JPG",
     "static/media/Inter-Medium.woff2": "./static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
     "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/dish7.jpg": "./static/media/dish7.5124387ce663666db7b1.jpg",
     "static/media/dish3.JPG": "./static/media/dish3.bfc5ab4edd1279e68ac7.JPG",
     "static/media/closet.jpg": "./static/media/closet.70730d402498bf3e7900.jpg",
     "static/media/dish8.jpg": "./static/media/dish8.d77916f75168137b5b10.jpg",
     "static/media/spa2.jpg": "./static/media/spa2.571b0b2b39e69249922f.jpg",
     "index.html": "./index.html",
     "main.26fedeff.css.map": "./static/css/main.26fedeff.css.map",
-    "main.8a73aca5.js.map": "./static/js/main.8a73aca5.js.map"
+    "main.3c80827e.js.map": "./static/js/main.3c80827e.js.map"
   },
   "entrypoints": [
     "static/css/main.26fedeff.css",
-    "static/js/main.8a73aca5.js"
+    "static/js/main.3c80827e.js"
   ]
 }
