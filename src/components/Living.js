@@ -17,13 +17,13 @@ function Accommodation() {
             <div className="accommodation_options">
                 <div className="option_card">
                     <img src={standard_room} alt="Стандартный номер" className="room_image" />
-                    <h2>СТАНДАРТ</h2>
+                    <h2>Classic Room</h2>
                     <p>Комната с двумя отдельными кроватями</p>
                     <p className="price">&pound;850 per person</p>
                 </div>
                 <div className="option_card">
                     <img src={comfort_room} alt="Комфорт номер" className="room_image" />
-                    <h2>КОМФОРТ</h2>
+                    <h2>Comfortable Room</h2>
                     <p>Отдельная комната с кроватью King size</p>
                     <p className="price">&pound;1200 per person</p>
                 </div>
