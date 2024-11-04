@@ -1,11 +1,19 @@
-import dish1 from '../images/dish1.JPG';
-import dish2 from '../images/dish2.jpg';
-import dish3 from '../images/dish3.JPG';
-import dish4 from '../images/dish4.JPG';
-import dish5 from '../images/dish5.JPG';
-import dish6 from '../images/dish6.JPG';
-import dish7 from '../images/dish7.jpg';
-import dish8 from '../images/dish8.jpg';
+// import dish1 from '../images/dish1.JPG';
+// import dish2 from '../images/dish2.jpg';
+// import dish3 from '../images/dish3.JPG';
+// import dish4 from '../images/dish4.JPG';
+// import dish5 from '../images/dish5.JPG';
+// import dish6 from '../images/dish6.JPG';
+// import dish7 from '../images/dish7.jpg';
+// import dish8 from '../images/dish8.jpg';
+import dish1 from '../images/winterDishes/dish1.jpg';
+import dish2 from '../images/winterDishes/dish2.jpg';
+import dish3 from '../images/winterDishes/dish3.jpg';
+import dish4 from '../images/winterDishes/dish4.jpg';
+import dish5 from '../images/winterDishes/dish5.jpg';
+import dish6 from '../images/winterDishes/dish6.jpg';
+import dish7 from '../images/winterDishes/dish7.jpg';
+import dish8 from '../images/winterDishes/dish8.jpg';
 
 function RetreatMenu() {
     return (
@@ -17,9 +25,9 @@ function RetreatMenu() {
                         <h2>Пятница</h2>
                         <p><strong>Ужин:</strong></p>
                         <ul>
-                            <li>Салат из брокколи, киноа, шпинат и авокадо</li>
-                            <li>Баклажанная лазанья с помидорами и базиликом</li>
-                            <li>Десерт чизкейк с клубникой</li>
+                            <li>Томатный суп с базеликом и фисташками</li>
+                            <li>Пряная тыква с лабне и мятой</li>
+                            <li>Чиа тарт с манго и кедровыми орехами</li>
                         </ul>
                         <p><strong>Чаепитие:</strong></p>
                         <ul>
@@ -32,20 +40,20 @@ function RetreatMenu() {
                         <h2>Суббота</h2>
                         <p><strong>Завтрак:</strong></p>
                         <ul>
-                            <li>Овсяная каша с киноа, орехами и сухофруктами на кокосовом молоке</li>
-                            <li>Тост с авокадо, руколой и маком</li>
+                            <li>Овсяная каша с киноа на кокосовых сливках</li>
+                            <li>Авокадо тост с рокетом и лимоном</li>
                         </ul>
                         <p><strong>Обед:</strong></p>
                         <ul>
-                            <li>Суп овощной с ячменной крупой</li>
-                            <li>Запеченная цветная капуста с хумусом и гуакомоле</li>
-                            <li>Яблочный тарт с лимонным сорбетом</li>
+                            <li>Овощной суп с перловой крупой</li>
+                            <li>Запеченый картрфель с шампиньонами и в сливочном соусе</li>
+                            <li>Яблочный пирог с лимонным сорбетом</li>
                         </ul>
                         <p><strong>Ужин:</strong></p>
                         <ul>
-                            <li>Салат из запеченных груш с тофу и сыром фета</li>
-                            <li>Овощи на гриле в медовом соусе с орехами</li>
-                            <li>Ягодный пирог</li>
+                            <li>Свежий салат из капусты ,моркови и кедровыми орехами</li>
+                            <li>Овощи на гриле</li>
+                            <li>Черничное суфле</li>
                         </ul>
                         <p><strong>Чаепитие:</strong></p>
                         <ul>
@@ -58,14 +66,13 @@ function RetreatMenu() {
                         <h2>Воскресенье</h2>
                         <p><strong>Завтрак:</strong></p>
                         <ul>
-                            <li>Тофу десерт с ягодами</li>
-                            <li>Тост с омлетом тофу и грибами в сливочном соусе</li>
+                            <li>Тофу омлет с луком парей на свежем тосте</li>
+                            <li>Тапиока с лесными ягодами</li>
                         </ul>
                         <p><strong>Обед:</strong></p>
                         <ul>
-                            <li>Суп из помидоров с базиликом</li>
-                            <li>Запеченная брокколи с песто</li>
-                            <li>Тапиока десерт с черникой</li>
+                            <li>Бакложановая лазанья с ореховым соусом</li>
+                            <li>Веган оладьи с запечеными грушами и кокосовым соусом</li>
                         </ul>
                         <h3>В ассортименте свежевыжатые соки:</h3>
                         <ul>
@@ -78,14 +85,15 @@ function RetreatMenu() {
                 </div>
 
                 <div className="menu_images">
+                    <img src={dish6} alt="Dish 6"/>
+                    <img src={dish4} alt="Dish 4"/>
+                    <img src={dish2} alt="Dish 2"/>
                     <img src={dish7} alt="Dish 7"/>
                     <img src={dish5} alt="Dish 5"/>
-                    <img src={dish2} alt="Dish 2"/>
-                    <img src={dish6} alt="Dish 6"/>
-                    <img src={dish8} alt="Dish 8" />
-                    <img src={dish4} alt="Dish 4" />
-                    <img src={dish1} alt="Dish 1" />
-                    <img src={dish3} alt="Dish 3" />
+                    <img src={dish8} alt="Dish 8"/>
+                    <img src={dish1} alt="Dish 1"/>
+                    <img src={dish3} alt="Dish 3"/>
+
                 </div>
             </div>
         </div>

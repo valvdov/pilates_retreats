@@ -43,7 +43,7 @@
     margin-top: 2em;
     font-size: 1.2em;
     font-style: italic;
-    width: 60%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,7 +51,7 @@
 blockquote {
     quotes: "“" "”";
     margin: 0;
-    padding-left: 1em;
+    /*padding-left: 1em;*/
     position: relative;
 }
 
@@ -62,6 +62,22 @@ blockquote:before {
     position: absolute;
     left: -0.5em;
     top: -0.2em;
+}
+
+.quote_ol {
+    margin-bottom: 50px;
+}
+
+.quote_li {
+    margin-top: 50px;
+}
+
+.quote_span{
+    color: green;
+}
+
+.quote_span-end {
+    color: red;
 }
 
 @media screen and (max-width: 480px) {

@@ -6,7 +6,8 @@ import fireplace from '../images/fireplace.jpg';
 import bathroom from '../images/bathroom.jpg';
 import closet from '../images/closet.jpg';
 import spa1 from '../images/spa1.JPG';
-import spa2 from '../images/spa2.jpg';
+// import spa2 from '../images/spa2.jpg';
+import spa3 from '../images/spa3.jpg';
 import outside1 from '../images/outside1.JPG';
 import outside2 from '../images/outside2.jpg';
 
@@ -19,13 +20,14 @@ function Accommodation() {
                     <img src={standard_room} alt="Стандартный номер" className="room_image" />
                     <h2>Classic Room</h2>
                     <p>Комната с двумя отдельными кроватями</p>
-                    <p className="price">&pound;850 per person</p>
+                    <p className="price">&pound;750 per person</p>
                 </div>
                 <div className="option_card">
                     <img src={comfort_room} alt="Комфорт номер" className="room_image" />
                     <h2>Comfortable Room</h2>
                     <p>Отдельная комната с кроватью King size</p>
                     <p className="price">&pound;1200 per person</p>
+                    {/*<p className="price_sold">SOLD</p>*/}
                 </div>
             </div>
 
@@ -35,7 +37,7 @@ function Accommodation() {
                 <img src={fireplace} alt="Камин" />
                 <img src={bathroom} alt="Ванная комната" />
                 <img src={spa1} alt="Спа 1" />
-                <img src={spa2} alt="Спа 2" />
+                <img src={spa3} alt="Спа 2" />
                 <img src={outside1} alt="На улице 1" />
                 <img src={outside2} alt="На улице 2" />
             </div>
