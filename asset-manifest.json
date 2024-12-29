@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.01929910.css",
-    "main.js": "./static/js/main.6423cd2e.js",
+    "main.css": "./static/css/main.eb27c6ff.css",
+    "main.js": "./static/js/main.b38c17c0.js",
     "static/media/natalia.jpeg": "./static/media/natalia.d4cf8dcebaaddd82c507.jpeg",
     "static/media/natali.jpg": "./static/media/natali.caf70d64a45cd9a72ae8.jpg",
     "static/media/lana.jpeg": "./static/media/lana.937eeb06e30992b4676c.jpeg",
-    "static/media/main_picture.jpeg": "./static/media/main_picture.af1a4552070185d3e564.jpeg",
+    "static/media/new_main_picture.png": "./static/media/new_main_picture.387ff630b67340c7d83f.png",
     "static/media/living_room.jpg": "./static/media/living_room.faf3599eec3c62dd92be.jpg",
     "static/media/standard_room.jpg": "./static/media/standard_room.11eb656806ac9691f4c8.jpg",
     "static/media/spa1.JPG": "./static/media/spa1.8aa7f60228df6f930fe9.JPG",
@@ -32,11 +32,11 @@
     "static/media/closet.jpg": "./static/media/closet.70730d402498bf3e7900.jpg",
     "static/media/spa3.jpg": "./static/media/spa3.0965e0a022a5b58fc526.jpg",
     "index.html": "./index.html",
-    "main.01929910.css.map": "./static/css/main.01929910.css.map",
-    "main.6423cd2e.js.map": "./static/js/main.6423cd2e.js.map"
+    "main.eb27c6ff.css.map": "./static/css/main.eb27c6ff.css.map",
+    "main.b38c17c0.js.map": "./static/js/main.b38c17c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.01929910.css",
-    "static/js/main.6423cd2e.js"
+    "static/css/main.eb27c6ff.css",
+    "static/js/main.b38c17c0.js"
   ]
 }
