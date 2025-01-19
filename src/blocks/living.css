@@ -59,6 +59,11 @@
     color: red;
 }
 
+.line-through {
+    text-decoration: line-through;
+    color: red;
+}
+
 .additional_images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

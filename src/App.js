@@ -6,6 +6,8 @@ import RetreatMenu from "./components/Menu";
 import Accommodation from "./components/Living";
 import BookingForm from "./components/Booking";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
+import Prev from "./components/Prev";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <RetreatProgram/>
           <RetreatMenu/>
           <Accommodation/>
+          <Prev/>
+          <Reviews/>
           <BookingForm/>
           <footer>
             <Footer/>

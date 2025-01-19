@@ -1,6 +1,7 @@
 import natalia from '../images/natalia.jpeg'
 import lana from '../images/lana.jpeg'
 import natali from '../images/natali.jpg'
+import natali_new from '../images/natali_new.jpg'
 
 function CoordinatorsPage() {
     return (
@@ -21,7 +22,7 @@ function CoordinatorsPage() {
                     <p>Шеф-повар</p>
                 </div>
                 <div className="coordinator_card">
-                    <img src={natali} alt="Наталья" className="coordinator_image" />
+                    <img src={natali_new} alt="Наталья" className="coordinator_image" />
                     <h2>Наталья</h2>
                     <p>Организатор</p>
                     <p>Vocal coach</p>

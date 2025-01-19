@@ -1,0 +1,71 @@
+.prev_page {
+    background-color: #e6f7f7;
+    padding: 3em;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.prev_title {
+    font-size: 3em;
+    color: #2a4f4e;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.prev_videos_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.prev_videos_container video {
+    width: 320px;
+    object-fit: cover; /* Ensures the images maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prev_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Responsive design */
+
+/* For tablets and medium-sized devices */
+@media screen and (max-width: 1024px) {
+    .prev_videos_container {
+        grid-template-columns: repeat(1, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+
+    .prev_videos_container {
+        grid-template-columns: 1fr; /* 1 column on smaller screens */
+    }
+
+    .prev_videos_container video {
+        height: auto; /* Ensure images scale properly in vertical stacking */
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .prev_title {
+        font-size: 2em;
+    }
+
+    .prev_videos_container {
+        grid-template-columns: 1fr; /* 1 column on smaller screens */
+    }
+
+    .prev_videos_container video {
+        width: 220px; /* Ensure images scale properly in vertical stacking */
+    }
+}
